@@ -40,8 +40,6 @@ public class HomeServiceImpl implements IHomeService {
     @Autowired
     ContentConverter contentConverter;
 
-    @Autowired
-    RedissonClient redissonClient;
 
     @Autowired
     CacheManager cacheManager;
